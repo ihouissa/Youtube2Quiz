@@ -1,0 +1,75 @@
+# Git Ignore for Youtube2Quiz Project
+
+# Node.js
+/node_modules/
+/dist/
+/.yarn/
+/.pnp.*
+.yarnrc.yml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+/build
+/out
+/.next
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Vite
+.vite
+
+# Coverage reports
+/coverage
+/lcov-report
+
+# .Net specific
+bin/
+obj/
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+
+# Mac OS files
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.prod.yml
+docker-compose-dev.yml
+Dockerfile
+docker-compose.yml
+*.swp
+
+# Others
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+/.vs
+
+# Tailwind CSS cache
+.tailwindcss

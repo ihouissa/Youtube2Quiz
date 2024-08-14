@@ -1,0 +1,6 @@
+@Youtube2QuizApi_HostAddress = http://localhost:5217
+
+GET {{Youtube2QuizApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
